@@ -1,5 +1,5 @@
-m=int(input("masse en kilo : "))
-t=int(input("taille en centimètre : "))
+m=int(input("masse en kilos : "))
+t=int(input("taille en centimètres : "))
 IMC=m/(t*t)*10000
 print()
 print ("Ton IMC est de :", round(IMC,2))
